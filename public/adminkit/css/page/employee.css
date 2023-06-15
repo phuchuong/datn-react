@@ -1,0 +1,22 @@
+/* ô input date trong form thêm sửa */
+html{
+    overflow-y: hidden;
+}
+.form__input--date{
+    position: relative;
+}
+.date__icon{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right: 8px;
+    width: 24px;
+    height: 24px;
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+    background-position: -116.5px -398px;
+    background-size: 1906px 2016px;
+    cursor: pointer;
+}
+
+/* dialog xóa */

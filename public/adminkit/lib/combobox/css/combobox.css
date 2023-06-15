@@ -1,0 +1,107 @@
+.m-combobox{
+    min-width: 240px;
+    height: 32px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    outline: none;
+    display: flex;
+    position: relative;
+    border: none;
+}
+
+.m-combobox input{
+    height: 100%;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+.m-combobox input{
+    border-color: #bbb;
+    padding: 4px 38px 4px 12px;
+}
+.m-combobox input:focus{
+    border:1px solid #73D9BD;
+}
+.input-forcus{
+    border: 1px solid #73D9BD !important;
+}
+.m-combobox button{
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    /* border-left: 1px solid #bbb; */
+    background-image: url(../img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+    background-position: -522px -439px;
+    background-size: 1906px 2016px;
+    cursor: pointer;
+    background-color: #fff;
+    transform:rotate(0deg);
+}
+.button-route{
+    transform:rotate(180deg) !important;
+}
+.m-combobox button:hover{
+    background-color: #E9EBEE;
+}
+
+.button-background{
+    background-color:#E9EBEE !important;
+}
+.combobox_data{
+    position: absolute;
+    top:100%;
+    width: 100%;
+    box-shadow: 0 3px 6px #000;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y:auto;
+    top:105%;
+    transition: all 0.3s ease;
+    background-color: #fff;
+}
+.reverse{
+    top: unset;
+    box-shadow: none;
+    border:1px solid #bbb;
+    bottom: calc(100% + 2px);
+    
+}
+.combobox_item{
+    height: 32px;
+    display: flex;
+    align-items: center;
+    padding-left: 36px;
+    
+}
+.combobox_item:hover{
+    background-color: #E9EBEE;
+}
+.combobox__item--selected{
+    
+    background-color: #37C8A1;
+}
+.combobox_item--all{
+    position: relative;
+}
+.icon__check{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    margin: 0px 6px;
+
+    background-image: url(../img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+    background-position: -1512px -348px;
+    background-size: 1906px 2016px;
+}

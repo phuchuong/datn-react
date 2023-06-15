@@ -1,0 +1,113 @@
+.header{
+    width: 100%;
+    height: 56px;
+    display: flex;
+}
+.header-left{
+    width: 200px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    background-color: #393A3E;
+
+}
+.header-icon{
+    width: 24px;
+    height: 24px;
+    padding: 4px;
+    margin: 0px 20px;
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+    background-position: -400.5px -189px;
+    background-size: 1906px 2016px;
+    cursor: pointer;
+    
+}
+.header-logo{
+    width: calc(100% - 56px);
+    height: 32px;
+    padding: 4px;
+    background-image: url(../../assets/img/Logo_Module_TiengViet_White.66947422.svg);
+    background-repeat: no-repeat;
+    background-position: 0px center;
+    background-size: contain;
+}
+.header-right{
+    width: calc(100% - 200px);
+    padding-right: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-select{
+    display: flex;
+    align-items: center;
+}
+.header-select-icon{
+    width: 24px;
+    height: 24px;
+    padding: 4px;
+    margin-left: 12px;
+    margin-right: 16px;
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+    background-position: -796.5px -135px;
+    background-size: 1906px 2016px;
+    cursor: pointer;
+}
+.header-select-text{
+    font-weight: 700;
+}
+.header-select-icon-down{
+    width: 24px;
+    height: 24px;
+    padding: 4px;
+    margin-left: 8px;
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+    background-position: -1061.5px -444px;
+    background-size: 1906px 2016px;
+    cursor: pointer;
+}
+
+.header-icloud{
+    display: flex;
+    align-items: center;
+}
+.header-notification{
+    width: 24px;
+    height: 24px;
+    padding: 4px;
+    margin-left: 12px;
+    margin-right: 16px;
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+    background-position: -743.5px -135px;
+    background-size: 1906px 2016px;
+    cursor: pointer;
+}
+.header-img-info{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border:none;
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+    background-position: -332px -951px;
+    background-size: 1906px 2016px;
+    cursor: pointer;
+}
+.header-text-name{
+    padding: 0px 6px;
+    font-weight: 700;
+}
+.header-name-down{
+    width: 24px;
+    height: 24px;
+    padding: 4px;
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+    background-position: -1061.5px -444px;
+    background-size: 1906px 2016px;
+    cursor: pointer;
+}

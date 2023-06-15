@@ -1,0 +1,66 @@
+.dialog{
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.589);
+    z-index:3;  
+}
+.dialog .dialog-content{
+    margin: auto;
+    max-height: 97%;
+    overflow-y: auto;
+    background-color: #fff;
+    border-radius: 4px;
+    width: 432px;
+    font-size: 11px;
+
+
+}
+.dialog-top{
+    padding:24px 24px 0px 24px;
+
+}
+.dialog-main{
+    display:flex;
+    padding:12px 0px 36px 0px;
+    border-bottom: 1px solid #bbb;
+    font-size: 13px;
+}
+.dialog-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    max-width: 36px;
+    max-height: 36px;
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+    background-position: -565px -543px;
+    background-size: 1906px 2016px;
+    flex-shrink: 0;
+    margin: auto;
+	
+
+}
+
+.dialog-text{
+    /* font-size: 14px; */
+    /* căn cho 2 đầu văn bản k bị thiếu */
+    text-align: justify;
+    padding-left: 10px;
+    line-height: 18px;
+
+}
+
+.dialog-button{
+    padding:12px 24px 24px 24px;
+    display:flex;
+    justify-content: space-between;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+}
+

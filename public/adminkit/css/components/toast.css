@@ -1,0 +1,40 @@
+.toast{
+    width: 450px;
+    height: 56px;
+    padding: 20px 16px 20px 18px;
+    border-radius: 4px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 4px rgba(0,0,0,0.078);
+}
+.toast-left{
+    display: flex;
+    align-items: center;
+}
+.toast-icon-start{
+    width: 24px;
+    height: 24px;
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+    background-position: -1512px -348px;
+    background-size: 1906px 2016px;
+    margin-right: 8px;
+}
+.toast-text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #1F1F1F;
+
+}
+.toast-icon-end{
+    width: 16px;
+    height: 16px;
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+    background-position: -1112px -447px;
+    background-size: 1906px 2016px;
+    cursor: pointer;
+    
+}

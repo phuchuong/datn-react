@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../combobox/css/combobox.css">
+    <style>
+        .row:focus-within .combobox_data {
+            display: block;
+        }
+        .combobox_data {
+            display: none;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="row">
+         <label for="">ComboBox</label>
+        <div class="m-combobox" id="cbxGender">
+            <input type="text">
+            <button></button>
+            <div class="combobox_data">
+                <div class="combobox_item combobox__item--selected" value="0">Nam</div>
+                <div class="combobox_item" value="1">Nữ</div>
+                <div class="combobox_item" value="2">Gay</div>
+            </div>   
+        </div>
+    </div>
+
+</body>
+</html>

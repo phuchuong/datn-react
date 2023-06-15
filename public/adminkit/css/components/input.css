@@ -1,0 +1,63 @@
+.input{
+    width: 240px;
+    height: 32px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    padding:0 16px;
+    font-size: 13px;
+    outline: none;
+    color: #bbb;
+}
+.input:focus{
+    border-color: var(--color-5);
+}
+.input-search{
+    position: relative;
+    width: 240px;
+}
+.input-error{
+    border:1px solid #FF010E;
+}
+.input-search-forcus{
+    padding-right: 40px;
+}
+.input-icon{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    max-width: 24px;
+    max-height: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 8px;
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+    background-position: -935.5px -443px;
+    background-size: 1906px 2016px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.input-width-180{
+    width: 166px !important;
+}
+.input-width-300{
+    width: 300px !important;
+}
+.input-width-200{
+    width: 200px !important;
+}
+.input-width-480{
+    width: 480px !important;
+}
+.input-width-984{
+    width: 984px !important;
+}
+.pad-12{
+    padding-right: 12px;
+}
+.radio-label:hover{
+    cursor: pointer;
+}
+.checkbox-label{
+    cursor: pointer;
+}

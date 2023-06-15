@@ -1,0 +1,104 @@
+.table{
+    width: 100%;
+    /* Khoảng trống giữa các đường viền (border)
+     của table bị loại bỏ, chỉ còn đường viền duy nhất */
+    border-collapse: collapse;
+    /* Khoảng trống giữa 2 đường viền (border)*/
+    border-spacing: unset;
+    border:unset;
+}
+.table tr{
+    height: 40px;
+    /* border-bottom: 1px solid #D6D7DB; */
+    border-right: 1px solid #ccc;
+
+}
+.table tr th{
+    background-color: #EDEEF2;
+    font-size: 13px;
+    border-right: 1px solid #ccc;
+    font-weight: 700;
+}
+.table tr th,td{
+    padding: 8px;
+    text-align: start;
+}
+.table tr td{
+    border: 1px solid #D6D7DB;
+}
+.table tr td:nth-child(1){
+    border-left: none;
+}
+.table .text-left{
+    text-align: left;
+}
+.table .text-center{
+    text-align: center;
+}
+.table .text-right{
+    text-align: right;
+}
+.table tbody tr:hover{
+    background-color: #F8F8F8;
+}
+.gird-table thead th{
+    position: -webkit-sticky; /* for Safari */
+    position: sticky;
+    top: 0;
+    background-color: rgba(248, 204, 123,0.9);
+}
+.table input{
+    width: 14px;
+    height: 14px;
+}
+.list-func{
+    width: auto;
+    height: auto;
+    border: none;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.function-text{
+    color: #4262F0;
+    font-weight: 700;
+    margin-right: 8px;
+}
+.function__icon{
+    width: 24px;
+    height: 18px;
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+    background-position: -844.5px -445px;
+    background-size: 1906px 2016px;
+    cursor: pointer;
+}
+.function__nav{
+    display: none;
+    position: absolute;
+    top:115%;
+    right: 10%;
+    width: 120px;
+    border:1px solid #D6D7DB;
+    background-color: #fff;
+    z-index: 1;
+    border-radius: 4px;
+}
+.showFunc{
+    display: block !important;
+}
+.function__nav li{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    padding-left:10px;
+    text-align: left;
+    list-style: none;
+    cursor: pointer;
+}
+.function__nav li:hover{
+    color:#37C8A1;
+    font-weight: 700;
+    background-color: #E8E9EC;
+}

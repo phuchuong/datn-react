@@ -1,0 +1,78 @@
+    @import url(./components/button.css);
+@import url(./components/style-swicher.css);
+@import url(./components/input.css);
+@import url(./components/select.css);
+@import url(./components/checkbox.css);
+@import url(./components/radio.css);
+@import url(./components/dialog.css);
+@import url(./components/table.css);
+@import url(./components/paging.css);
+@import url(./components/toast.css);
+@import url(./components/modal.css);
+@import url(./layout/header.css);
+@import url(./layout/content.css);
+@import url(./layout/navbar.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: GoogleSands;
+    font-size: 13px;
+}
+@font-face{
+    font-family: GoogleSands;
+    src: url("../assets/fonts/notosans-regular.2cb88a13.woff2");
+}
+@font-face {
+    font-family: GoogleSands Bold;
+    src: url("../assets/fonts/notosans-bold.3ede5aff.woff2");
+}
+@font-face {
+    font-family: GoogleSands Italic;
+    src: url("../assets/fonts/notosans-italic.1c1aaac9.woff2");
+}
+@font-face {
+    font-family:GoogleSands Semibold;
+    src: url("../assets/fonts/notosans-semibold.df3e6dc4.woff2");
+}
+.row{
+    padding-left: 12px;
+    margin: 0px 0px;
+    width: 100%;
+}
+label{
+    display: block;
+    padding: 12px 0px;
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 56px);
+}
+
+
+::-webkit-scrollbar {
+    width: 8px;
+
+
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #bbb;
+    border-radius: 4px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+

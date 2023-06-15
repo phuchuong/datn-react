@@ -1,0 +1,79 @@
+.navbar{
+    width: 200px;
+    max-width: 200px;
+    max-height: 100vh;
+    flex-shrink: 0;
+    background-color: #393A3E;
+    overflow-y: auto;
+}
+.navbar-item{
+    width: 100%;
+    height: 44px;
+    padding-left: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.navbar-item:hover{
+    background-color: #696969;
+}
+.item-text{
+    padding-left: 12px;
+    color: #fff;
+    cursor: pointer;
+}
+.item-icon{
+    width: 24px;
+    height: 24px;
+    padding: 4px;
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+    background-size: 1906px 2016px;
+    cursor: pointer;
+}
+
+.icon-1{
+    background-position: -28px -1605px;
+}
+.icon-2{
+    background-position: -68px -1605px;
+}
+.icon-3{
+    background-position: -110px -1605px;
+}
+.icon-4{
+    background-position: -151px -1605px;
+}
+.icon-5{
+    background-position: -193px -1605px;
+}
+.icon-6{
+    background-position: -234px -1605px;
+}
+.icon-7{
+    background-position: -275px -1605px;
+}
+.icon-8{
+    background-position: -316px -1605px;
+}
+.icon-9{
+    background-position: -357px -1605px;
+}
+.icon-10{
+    background-position: -399px -1605px;
+}
+.icon-11{
+    background-position: -441px -1605px;
+}
+.icon-12{
+    background-position: -481px -1605px;
+}
+.icon-13{
+    background-position: -357px -1677px;
+}
+.icon-14{
+    background-position: -515px -1605px;
+}
+.icon-15{
+    background-position: -191px -1677px;
+}

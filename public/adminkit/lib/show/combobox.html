@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../combobox/css/combobox.css">
+</head>
+<body>
+    <!-- <div class="row">
+        <label for="">ComboBox</label>
+        <div class="m-combobox">
+            <input type="text">
+            <button></button>
+            <div class="combobox_data">
+                <div class="combobox_item combobox__item--selected">Nam</div>
+                <div class="combobox_item">Nữ</div>
+                <div class="combobox_item">Gay</div>
+            </div>
+            
+        </div>
+    </div> -->
+
+
+    <div class="row">
+        <!-- <label for="">ComboBox</label>
+        <div class="m-combobox" id="cbxGender">
+            <input type="text">
+            <button></button>
+            <div class="combobox_data">
+                <div class="combobox_item combobox__item--selected" value="0">Nam</div>
+                <div class="combobox_item" value="1">Nữ</div>
+                <div class="combobox_item" value="2">Gay</div>
+            </div>
+            
+        </div> -->
+        <mcombobox api="https://cukcuk.manhnv.net/api/v1/CustomerGroups" text="CustomerGroupName" value="CustomerGroupId" id="cbxGender"></mcombobox>
+        
+        <!-- <mcombobox api="https://cukcuk.manhnv.net/api/v1/Departments" text="DepartmentName" value="DepartmentId" id="Department"></mcombobox> -->
+    </div>
+
+    <script src="../combobox/js/jquery.min.js"></script>
+    <script src="../combobox/js/combobox.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.589);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+.modal__main{
+    min-width: 600px;
+    min-height: 600px;
+    overflow: auto;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.modal__header{
+    display: flex;
+    justify-content: space-between;
+}
+.modal__header--left{
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-bottom: 24px;
+}
+.modal__header--title{
+    font-size: 20px;
+    padding-right: 12px;
+    font-weight: 700;
+}
+.modal__header--checkbox{
+    display: flex;
+
+}
+.modal__header--checkbox .checkbox{
+    padding-right: 12px;
+
+}
+.modal__header--right{
+    display: flex;
+    max-height: 48px;
+    padding: 12px 12px;
+}
+.modal_header--icon1{
+    width: 24px;
+    height: 24px;
+    max-width: 24px;
+    max-height: 24px;
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+    background-position: -82.5px -243px;
+    background-size: 1906px 2016px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+.modal_header--icon2{
+    width: 24px;
+    height: 24px;
+    max-width: 24px;
+    max-height: 24px;
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+    background-position: -135.5px -243px;
+    background-size: 1906px 2016px;
+    cursor: pointer;
+}
+.modal__content{
+    padding: 0px 24px;
+}
+.modal__content--block{
+    width: 100%;
+    border-bottom: 1px solid #bbb;
+}
+.modal__block--top{
+    display: flex;
+    justify-content: space-between;
+}
+.block__input--left{
+    margin-right: 24px;
+}
+.form__input{
+    display: flex;
+    justify-content: space-between;
+}
+.form__input--flexStart{
+    display: flex;
+    justify-content: start;
+}
+.form__input--start{
+    display: flex;
+    justify-content: start !important;
+}
+.form__input--radio{
+    display: flex;
+    padding: 6px 0px;
+}
+.form__input--radio .radio{
+    padding-right:12px;
+}
+.modal__content .form__input--item>label{
+    font-weight: 700;
+}
+.modal__content .form__input--item>label>span{
+    color:red;
+}
+
+
+.modal__block--bottom{
+    margin: 24px 0px;
+}
+
+
+.form__input--bottom{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 24px;
+}
+
+.modal__footer{
+    padding: 24px 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-close{
+    margin-right: 8px;
+}
